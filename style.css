@@ -1,0 +1,330 @@
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+}
+/* .grid-container div{
+    background-color: aqua;
+  
+    height: 80vh;
+    padding: 10px;
+} */
+ .blogs{
+    display: grid;
+    grid-column: 1 / span 3;
+    gap: 25px;
+    margin-top: 0%;
+}
+
+/* .blog{
+    display: flex;
+    gap: 10px;
+} */
+
+.blog{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 0;
+    
+    
+}
+
+.blog-head h1{
+    border-bottom: 3px solid #222222;
+}
+.blog-head h1 span{
+    font-family:roboto, sans-serif ;
+    font-weight: 400px ;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: #222222;
+    color: white;
+    width: fit-content;
+    padding: 5px 7px;
+}
+
+.blog .bg{
+    grid-template-rows: 1 / span 1;
+}
+.blog .background-block {
+   background-image: url("https://demo.tagdiv.com/newspaper_pro/wp-content/uploads/2019/08/97-485x360.jpg.webp;") ;
+ background-position: center;
+ background-size: contain;
+ background-repeat: no-repeat;
+
+   width: 250px;
+   height: 160px; 
+
+  
+   
+}
+.blog .background-block2{
+    background-image: url("https://demo.tagdiv.com/newspaper_pro/wp-content/uploads/2019/08/96-696x464.jpg.webp") ;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+ 
+  width: 250px;
+   height: 160px; 
+   
+    
+ }
+ .blog .background-block3{
+    background-image: url("https://demo.tagdiv.com/newspaper_pro/wp-content/uploads/2019/08/95-485x360.jpg.webp") ;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 250px;
+   height: 160px; 
+   
+    
+ }
+ .blog .background-block4{
+    background-image: url("https://demo.tagdiv.com/newspaper_pro/wp-content/uploads/2019/08/94-485x360.jpg.webp") ;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 250px;
+   height: 160px; 
+   
+    
+ }
+
+
+
+.text{
+    grid-column: 2 / span 2;
+}
+
+
+.text .title-text{
+    color: #222222 ;
+    font-family: roboto, sans-serif;
+    font-size: 22px;
+    font-weight: 400px;
+    line-height: 29px;
+    font-style: normal;
+}
+.text .title-text:hover{
+    color: #68bdef;
+}
+
+
+
+.text .inner-text {
+    padding: 3px;
+}
+
+.text .inner-text span:nth-child(1){
+    
+    font-family: "open sans", "open sans regular", sans-serif  ;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 11px;
+
+
+}
+.text .inner-text span:nth-child(2){
+    color: 
+    rgb(118, 118, 118);
+    padding: 0 3px;
+}
+.text .inner-text span:nth-child(3){
+    font-family: "open sans", "open sans regular", sans-serif  ;
+    font-size: 11px;
+    font-weight: 400px;
+    line-height: 11px;
+    color: 
+    rgb(118, 118, 118);
+}
+.text .inner-text p{
+    font-family: "open sans", "open sans regular", sans-serif  ;
+    font-size: 13px;
+    font-weight: 500px;
+    line-height: 21px;
+    color: 
+    rgb(118, 118, 118);
+}
+
+.ads{
+ display: grid;
+
+ grid-column: 4 / span 1;
+ margin-top: 0; 
+ padding-top: 35px;
+ gap: 10px;
+
+}
+
+ .ads .ad-title{
+    font-family:Verdana, BlinkMacSystemFont, -apple-system, "segoe ui", Roboto, Oxygen, Ubuntu, Cantarell, "open sans", "helvetica neue", sans-serif ;
+    font-weight: 400px ;
+    font-size: 10px ;
+    line-height: 21px;
+    color: 
+    rgb(118, 118, 118);
+    text-align: center;
+    width: 100%;
+} 
+
+.ads .ads-background{
+    background-image: url("https://demo.tagdiv.com/newspaper_pro/wp-content/uploads/2019/10/newspaper-rec300d.jpg.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 250px;
+}
+.holiday-recipes h1{
+    border-bottom: 2px solid #8954c1;
+    width: 100%;
+}
+.holiday-recipes h1 span{
+    font-family:roboto, sans-serif ;
+    font-size: 14px ;
+    font-weight:400px ;
+    line-height: 17px;
+    background-color: #8954c1;
+    padding: 7px 9px;
+    color: white;
+    width: fit-content;
+
+}
+.holiday-recipes .hr-title{
+    color: #222222 ;
+    font-family: roboto, sans-serif;
+    font-size: 21px;
+    font-weight: 400px;
+    line-height: 25px;
+    font-style: normal;
+}
+.holiday-recipes .hr-title:hover{
+    color: #8954c1;
+}
+
+.text .inner-text {
+    padding: 3px;
+}
+
+.holiday-recipes .inner-text span:nth-child(1){
+    
+    font-family: "open sans", "open sans regular", sans-serif  ;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 11px;
+
+
+}
+.holiday-recipes .inner-text span:nth-child(2){
+    color: 
+    rgb(118, 118, 118);
+    padding: 0 3px;
+}
+.holiday-recipes .inner-text span:nth-child(3){
+    font-family: "open sans", "open sans regular", sans-serif  ;
+    font-size: 11px;
+    font-weight: 400px;
+    line-height: 11px;
+    color: 
+    rgb(118, 118, 118);
+}
+
+.holiday-recipes .inner-text .zero{
+    background-color: black;
+    color: white;
+    font-family: "open sans", "open sans regular", sans-serif  ;
+    font-size: 10px;
+    font-weight: 600px;
+    line-height: 10px;
+    padding: 4px 6px;
+  
+}
+
+.last-text{
+    display: flex;
+   justify-content: space-between;
+}
+
+.holiday-recipes .inner-text p{
+    font-family: "open sans", "open sans regular", sans-serif  ;
+    font-size: 13px;
+    font-weight: 600px;
+    line-height: 21px;
+    color: 
+    rgb(118, 118, 118);
+    margin-bottom: 0;
+}
+
+.holiday-recipes .inner-text .holiday-bg{
+    background-image: url("https://demo.tagdiv.com/newspaper_pro/wp-content/uploads/2019/08/59-485x360.jpg.webp");
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 160px;
+   margin-top: 20px;
+   position: relative;
+}
+.holiday-recipes .inner-text .holiday-bg .recipes{
+    background-color: #222222;
+    padding: 4px 7px;
+    width: fit-content;
+    font-family: "open sans", "open sans regular", sans-serif  ;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 10px;
+    color: 
+   white;
+  
+   position: absolute;
+   bottom: 0
+
+}
+.holiday-recipes .inner-text .holiday-bg .recipes:hover {
+    background-color: #8954c1;
+}
+.holiday-recipes   .buttons{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.buttons .btn-less{
+    background-color: white;
+    border: 1px solid #ededed;
+    font-family: Verdana, BlinkMacSystemFont, -apple-system, "segoe ui", Roboto, Oxygen, Ubuntu, Cantarell, "open sans", "helvetica neue", sans-serif ;
+    font-size: 7px;
+    font-weight: bold;
+    line-height: 7px;
+    color: 
+    #ededed;
+    padding: 7px 10px ;
+  
+}
+
+.buttons .btn-less:hover{
+    background-color:#c4a9e0 ;
+    color: white;
+    font-weight: bold;
+}
+.buttons .btn-greater{
+    background-color: white;
+    border: 1px solid #d8d8d8d0;
+    font-family: Verdana, BlinkMacSystemFont, -apple-system, "segoe ui", Roboto, Oxygen, Ubuntu, Cantarell, "open sans", "helvetica neue", sans-serif ;
+    font-size: 7px;
+    font-weight: 1100px;
+    line-height: 7px;
+    color: #e5e5e5;
+    padding: 8px 10px ;
+   
+}
+.buttons .btn-greater:hover{
+    background-color:#8954c1 ;
+    color: white;
+    font-weight: bold;
+}
